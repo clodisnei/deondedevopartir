@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://deondedevopartir.clodisneicp.workers.dev/sitemap.xml
