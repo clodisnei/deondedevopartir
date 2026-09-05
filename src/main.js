@@ -1,4 +1,5 @@
 import './styles.css';
+import { renderTestimonials } from './components/testimonials.js';
 
 const CHECKOUT_URL = 'https://pay.hotmart.com/W107472687X?checkoutMode=10';
 const ATTRIBUTION_PARAMS = [
@@ -108,6 +109,7 @@ function setupScrollTracking() {
 }
 
 initializeAnalytics();
+renderTestimonials();
 setupCheckoutLinks();
 setupScrollTracking();
 trackEvent('page_view', {

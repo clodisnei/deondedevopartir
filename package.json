@@ -7,7 +7,8 @@
     "dev": "vite --host 0.0.0.0",
     "build": "vite build",
     "preview": "vite preview --host 0.0.0.0",
-    "check": "npm run build"
+    "check": "npm run test:testimonials && npm run build",
+    "test:testimonials": "node --test tests/testimonials.test.mjs"
   },
   "devDependencies": {
     "vite": "^7.1.4",
